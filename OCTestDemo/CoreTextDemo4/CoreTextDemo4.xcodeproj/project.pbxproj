@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C49DD6BC1C3CEABD00638FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6BB1C3CEABD00638FBC /* main.m */; };
+		C49DD6BF1C3CEABD00638FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6BE1C3CEABD00638FBC /* AppDelegate.m */; };
+		C49DD6C21C3CEABD00638FBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6C11C3CEABD00638FBC /* ViewController.m */; };
+		C49DD6C51C3CEABD00638FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49DD6C31C3CEABD00638FBC /* Main.storyboard */; };
+		C49DD6C71C3CEABD00638FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49DD6C61C3CEABD00638FBC /* Assets.xcassets */; };
+		C49DD6CA1C3CEABD00638FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49DD6C81C3CEABD00638FBC /* LaunchScreen.storyboard */; };
+		C49DD6E21C3CEAE100638FBC /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = C49DD6D11C3CEAE100638FBC /* content.json */; };
+		C49DD6E31C3CEAE100638FBC /* CoreTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6D41C3CEAE100638FBC /* CoreTextData.m */; };
+		C49DD6E41C3CEAE100638FBC /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6D71C3CEAE100638FBC /* CTDisplayView.m */; };
+		C49DD6E51C3CEAE100638FBC /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6DA1C3CEAE100638FBC /* CTFrameParser.m */; };
+		C49DD6E61C3CEAE100638FBC /* CTFrameParserConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6DD1C3CEAE100638FBC /* CTFrameParserConfiger.m */; };
+		C49DD6E71C3CEAE100638FBC /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6E11C3CEAE100638FBC /* UIView+frameAdjust.m */; };
+		C49DD6EC1C3CEB0D00638FBC /* red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49DD6E81C3CEB0D00638FBC /* red@2x.png */; };
+		C49DD6ED1C3CEB0D00638FBC /* cursor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49DD6E91C3CEB0D00638FBC /* cursor@2x.png */; };
+		C49DD6EE1C3CEB0D00638FBC /* coretext-image-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C49DD6EA1C3CEB0D00638FBC /* coretext-image-1.jpg */; };
+		C49DD6EF1C3CEB0D00638FBC /* coretext-image-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C49DD6EB1C3CEB0D00638FBC /* coretext-image-2.jpg */; };
+		C49DD6F31C3CF15600638FBC /* CoreTextImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6F21C3CF15600638FBC /* CoreTextImageData.m */; };
+		C49DD6F91C3D1C4800638FBC /* CoreTextLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6F81C3D1C4800638FBC /* CoreTextLinkData.m */; };
+		C49DD6FD1C3D283100638FBC /* CoreTextUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD6FC1C3D283100638FBC /* CoreTextUtility.m */; };
+		C49DD7421C3E3BA300638FBC /* CoretextMagnifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C49DD7411C3E3BA300638FBC /* CoretextMagnifyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C49DD6B71C3CEABD00638FBC /* CoreTextDemo4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreTextDemo4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49DD6BB1C3CEABD00638FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C49DD6BD1C3CEABD00638FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C49DD6BE1C3CEABD00638FBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C49DD6C01C3CEABD00638FBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C49DD6C11C3CEABD00638FBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C49DD6C41C3CEABD00638FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49DD6C61C3CEABD00638FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49DD6C91C3CEABD00638FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49DD6CB1C3CEABD00638FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49DD6D11C3CEAE100638FBC /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		C49DD6D31C3CEAE100638FBC /* CoreTextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextData.h; sourceTree = "<group>"; };
+		C49DD6D41C3CEAE100638FBC /* CoreTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextData.m; sourceTree = "<group>"; };
+		C49DD6D61C3CEAE100638FBC /* CTDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
+		C49DD6D71C3CEAE100638FBC /* CTDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
+		C49DD6D91C3CEAE100638FBC /* CTFrameParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParser.h; sourceTree = "<group>"; };
+		C49DD6DA1C3CEAE100638FBC /* CTFrameParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParser.m; sourceTree = "<group>"; };
+		C49DD6DC1C3CEAE100638FBC /* CTFrameParserConfiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfiger.h; sourceTree = "<group>"; };
+		C49DD6DD1C3CEAE100638FBC /* CTFrameParserConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfiger.m; sourceTree = "<group>"; };
+		C49DD6DE1C3CEAE100638FBC /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C49DD6E01C3CEAE100638FBC /* UIView+frameAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
+		C49DD6E11C3CEAE100638FBC /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
+		C49DD6E81C3CEB0D00638FBC /* red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red@2x.png"; sourceTree = "<group>"; };
+		C49DD6E91C3CEB0D00638FBC /* cursor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cursor@2x.png"; sourceTree = "<group>"; };
+		C49DD6EA1C3CEB0D00638FBC /* coretext-image-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coretext-image-1.jpg"; sourceTree = "<group>"; };
+		C49DD6EB1C3CEB0D00638FBC /* coretext-image-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coretext-image-2.jpg"; sourceTree = "<group>"; };
+		C49DD6F11C3CF15600638FBC /* CoreTextImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextImageData.h; sourceTree = "<group>"; };
+		C49DD6F21C3CF15600638FBC /* CoreTextImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextImageData.m; sourceTree = "<group>"; };
+		C49DD6F71C3D1C4800638FBC /* CoreTextLinkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextLinkData.h; sourceTree = "<group>"; };
+		C49DD6F81C3D1C4800638FBC /* CoreTextLinkData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextLinkData.m; sourceTree = "<group>"; };
+		C49DD6FB1C3D283100638FBC /* CoreTextUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextUtility.h; sourceTree = "<group>"; };
+		C49DD6FC1C3D283100638FBC /* CoreTextUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextUtility.m; sourceTree = "<group>"; };
+		C49DD7401C3E3BA300638FBC /* CoretextMagnifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoretextMagnifyView.h; sourceTree = "<group>"; };
+		C49DD7411C3E3BA300638FBC /* CoretextMagnifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoretextMagnifyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49DD6B41C3CEABD00638FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49DD6AE1C3CEABD00638FBC = {
+			isa = PBXGroup;
+			children = (
+				C49DD6B91C3CEABD00638FBC /* CoreTextDemo4 */,
+				C49DD6B81C3CEABD00638FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C49DD6B81C3CEABD00638FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6B71C3CEABD00638FBC /* CoreTextDemo4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49DD6B91C3CEABD00638FBC /* CoreTextDemo4 */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6BD1C3CEABD00638FBC /* AppDelegate.h */,
+				C49DD6BE1C3CEABD00638FBC /* AppDelegate.m */,
+				C49DD6C01C3CEABD00638FBC /* ViewController.h */,
+				C49DD6C11C3CEABD00638FBC /* ViewController.m */,
+				C49DD6D11C3CEAE100638FBC /* content.json */,
+				C49DD73C1C3E3AFD00638FBC /* CoreTextMagnifyUtility */,
+				C49DD6FA1C3D281900638FBC /* CoreTextUtility */,
+				C49DD6F61C3D1C3400638FBC /* CoreTextLinkData */,
+				C49DD6F01C3CF14C00638FBC /* CoreTextImageData */,
+				C49DD6D21C3CEAE100638FBC /* CoreTextData */,
+				C49DD6D51C3CEAE100638FBC /* CTDisplayView */,
+				C49DD6D81C3CEAE100638FBC /* CTFrameParser */,
+				C49DD6DB1C3CEAE100638FBC /* CTFrameParserConfig */,
+				C49DD6DF1C3CEAE100638FBC /* UIView(frameAdjust) */,
+				C49DD6DE1C3CEAE100638FBC /* Header.h */,
+				C49DD6C31C3CEABD00638FBC /* Main.storyboard */,
+				C49DD6E81C3CEB0D00638FBC /* red@2x.png */,
+				C49DD6E91C3CEB0D00638FBC /* cursor@2x.png */,
+				C49DD6EA1C3CEB0D00638FBC /* coretext-image-1.jpg */,
+				C49DD6EB1C3CEB0D00638FBC /* coretext-image-2.jpg */,
+				C49DD6C61C3CEABD00638FBC /* Assets.xcassets */,
+				C49DD6C81C3CEABD00638FBC /* LaunchScreen.storyboard */,
+				C49DD6CB1C3CEABD00638FBC /* Info.plist */,
+				C49DD6BA1C3CEABD00638FBC /* Supporting Files */,
+			);
+			path = CoreTextDemo4;
+			sourceTree = "<group>";
+		};
+		C49DD6BA1C3CEABD00638FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6BB1C3CEABD00638FBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C49DD6D21C3CEAE100638FBC /* CoreTextData */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6D31C3CEAE100638FBC /* CoreTextData.h */,
+				C49DD6D41C3CEAE100638FBC /* CoreTextData.m */,
+			);
+			path = CoreTextData;
+			sourceTree = "<group>";
+		};
+		C49DD6D51C3CEAE100638FBC /* CTDisplayView */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6D61C3CEAE100638FBC /* CTDisplayView.h */,
+				C49DD6D71C3CEAE100638FBC /* CTDisplayView.m */,
+			);
+			path = CTDisplayView;
+			sourceTree = "<group>";
+		};
+		C49DD6D81C3CEAE100638FBC /* CTFrameParser */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6D91C3CEAE100638FBC /* CTFrameParser.h */,
+				C49DD6DA1C3CEAE100638FBC /* CTFrameParser.m */,
+			);
+			path = CTFrameParser;
+			sourceTree = "<group>";
+		};
+		C49DD6DB1C3CEAE100638FBC /* CTFrameParserConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6DC1C3CEAE100638FBC /* CTFrameParserConfiger.h */,
+				C49DD6DD1C3CEAE100638FBC /* CTFrameParserConfiger.m */,
+			);
+			path = CTFrameParserConfig;
+			sourceTree = "<group>";
+		};
+		C49DD6DF1C3CEAE100638FBC /* UIView(frameAdjust) */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6E01C3CEAE100638FBC /* UIView+frameAdjust.h */,
+				C49DD6E11C3CEAE100638FBC /* UIView+frameAdjust.m */,
+			);
+			path = "UIView(frameAdjust)";
+			sourceTree = "<group>";
+		};
+		C49DD6F01C3CF14C00638FBC /* CoreTextImageData */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6F11C3CF15600638FBC /* CoreTextImageData.h */,
+				C49DD6F21C3CF15600638FBC /* CoreTextImageData.m */,
+			);
+			path = CoreTextImageData;
+			sourceTree = "<group>";
+		};
+		C49DD6F61C3D1C3400638FBC /* CoreTextLinkData */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6F71C3D1C4800638FBC /* CoreTextLinkData.h */,
+				C49DD6F81C3D1C4800638FBC /* CoreTextLinkData.m */,
+			);
+			path = CoreTextLinkData;
+			sourceTree = "<group>";
+		};
+		C49DD6FA1C3D281900638FBC /* CoreTextUtility */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD6FB1C3D283100638FBC /* CoreTextUtility.h */,
+				C49DD6FC1C3D283100638FBC /* CoreTextUtility.m */,
+			);
+			path = CoreTextUtility;
+			sourceTree = "<group>";
+		};
+		C49DD73C1C3E3AFD00638FBC /* CoreTextMagnifyUtility */ = {
+			isa = PBXGroup;
+			children = (
+				C49DD7401C3E3BA300638FBC /* CoretextMagnifyView.h */,
+				C49DD7411C3E3BA300638FBC /* CoretextMagnifyView.m */,
+			);
+			path = CoreTextMagnifyUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49DD6B61C3CEABD00638FBC /* CoreTextDemo4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49DD6CE1C3CEABD00638FBC /* Build configuration list for PBXNativeTarget "CoreTextDemo4" */;
+			buildPhases = (
+				C49DD6B31C3CEABD00638FBC /* Sources */,
+				C49DD6B41C3CEABD00638FBC /* Frameworks */,
+				C49DD6B51C3CEABD00638FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreTextDemo4;
+			productName = CoreTextDemo4;
+			productReference = C49DD6B71C3CEABD00638FBC /* CoreTextDemo4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49DD6AF1C3CEABD00638FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Jerry;
+				TargetAttributes = {
+					C49DD6B61C3CEABD00638FBC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C49DD6B21C3CEABD00638FBC /* Build configuration list for PBXProject "CoreTextDemo4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49DD6AE1C3CEABD00638FBC;
+			productRefGroup = C49DD6B81C3CEABD00638FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49DD6B61C3CEABD00638FBC /* CoreTextDemo4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49DD6B51C3CEABD00638FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49DD6EF1C3CEB0D00638FBC /* coretext-image-2.jpg in Resources */,
+				C49DD6EC1C3CEB0D00638FBC /* red@2x.png in Resources */,
+				C49DD6CA1C3CEABD00638FBC /* LaunchScreen.storyboard in Resources */,
+				C49DD6C71C3CEABD00638FBC /* Assets.xcassets in Resources */,
+				C49DD6C51C3CEABD00638FBC /* Main.storyboard in Resources */,
+				C49DD6ED1C3CEB0D00638FBC /* cursor@2x.png in Resources */,
+				C49DD6EE1C3CEB0D00638FBC /* coretext-image-1.jpg in Resources */,
+				C49DD6E21C3CEAE100638FBC /* content.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49DD6B31C3CEABD00638FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49DD7421C3E3BA300638FBC /* CoretextMagnifyView.m in Sources */,
+				C49DD6C21C3CEABD00638FBC /* ViewController.m in Sources */,
+				C49DD6E71C3CEAE100638FBC /* UIView+frameAdjust.m in Sources */,
+				C49DD6E41C3CEAE100638FBC /* CTDisplayView.m in Sources */,
+				C49DD6F91C3D1C4800638FBC /* CoreTextLinkData.m in Sources */,
+				C49DD6E31C3CEAE100638FBC /* CoreTextData.m in Sources */,
+				C49DD6BF1C3CEABD00638FBC /* AppDelegate.m in Sources */,
+				C49DD6F31C3CF15600638FBC /* CoreTextImageData.m in Sources */,
+				C49DD6FD1C3D283100638FBC /* CoreTextUtility.m in Sources */,
+				C49DD6E61C3CEAE100638FBC /* CTFrameParserConfiger.m in Sources */,
+				C49DD6BC1C3CEABD00638FBC /* main.m in Sources */,
+				C49DD6E51C3CEAE100638FBC /* CTFrameParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C49DD6C31C3CEABD00638FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49DD6C41C3CEABD00638FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49DD6C81C3CEABD00638FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49DD6C91C3CEABD00638FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49DD6CC1C3CEABD00638FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C49DD6CD1C3CEABD00638FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49DD6CF1C3CEABD00638FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreTextDemo4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CoreTextDemo4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C49DD6D01C3CEABD00638FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreTextDemo4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CoreTextDemo4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49DD6B21C3CEABD00638FBC /* Build configuration list for PBXProject "CoreTextDemo4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49DD6CC1C3CEABD00638FBC /* Debug */,
+				C49DD6CD1C3CEABD00638FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49DD6CE1C3CEABD00638FBC /* Build configuration list for PBXNativeTarget "CoreTextDemo4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49DD6CF1C3CEABD00638FBC /* Debug */,
+				C49DD6D01C3CEABD00638FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49DD6AF1C3CEABD00638FBC /* Project object */;
+}
